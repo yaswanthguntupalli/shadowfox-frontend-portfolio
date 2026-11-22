@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a frontend developer. Explore skills, projects and contact information.">
+  <title>Yaswanth Guntupalli | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Yaswanth Guntupalli home"><span class="brand-mark">Y.</span><span>yaswanth<span class="accent">.dev</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Home</a><a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a><a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="pulse"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <p class="eyebrow">HELLO, I'M <span class="accent">YASWANTH GUNTUPALLI</span></p>
+        <h1>I build digital<br>experiences that<br><span class="gradient-text">make an impact.</span></h1>
+        <p class="hero-description">I'm Yaswanth, an aspiring <strong>Frontend Developer</strong> focused on creating clean, responsive and user-friendly websites with modern web technologies.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↗</span></a><a class="button button-ghost" href="#contact">Get in touch</a></div>
+        <div class="hero-meta"><span>BASED IN INDIA</span><span class="meta-line"></span><span>FRONTEND DEVELOPER</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Stylish developer-themed code illustration, created with CSS and code-inspired interface elements">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span>•••</span></div>
+          <div class="code-content">
+            <p><span class="line-no">01</span><span class="code-purple">const</span> developer = {</p>
+            <p><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">'Yaswanth Guntupalli'</span>,</p>
+            <p><span class="line-no">03</span>&nbsp;&nbsp;role: <span class="code-green">'Frontend Dev'</span>,</p>
+            <p><span class="line-no">04</span>&nbsp;&nbsp;creative: <span class="code-orange">true</span>,</p>
+            <p><span class="line-no">05</span>&nbsp;&nbsp;curious: <span class="code-orange">true</span>,</p>
+            <p><span class="line-no">06</span>&nbsp;&nbsp;skills: [<span class="code-green">'HTML'</span>,</p>
+            <p><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'CSS'</span>, <span class="code-green">'JavaScript'</span>]</p>
+            <p><span class="line-no">08</span>};</p>
+            <p class="code-comment"><span class="line-no">09</span>// always learning something new ✨</p>
+          </div>
+          <div class="code-bottom"><span><i class="status-dot"></i> All systems learning</span><span>UTF-8</span></div>
+        </div>
+        <div class="floating-chip chip-html"><b>5</b> HTML</div><div class="floating-chip chip-css"><b>✳</b> CSS</div><div class="floating-chip chip-js"><b>JS</b> JavaScript</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-intro reveal"><p class="large-copy">I enjoy turning ideas into <span class="accent">useful, beautiful experiences</span> on the web.</p><p>I'm Yaswanth Guntupalli, a motivated aspiring frontend developer currently building my skills in HTML, CSS and JavaScript through hands-on projects and learning. I care about thoughtful design, accessible interfaces and writing code that is easy to understand and maintain.</p><p>My goal is to keep learning, solve real problems and grow into a developer who creates products people enjoy using.</p><a class="text-link" href="#contact">Let's connect <span>↗</span></a></div>
+        <div class="about-facts reveal">
+          <div class="fact-card"><span class="fact-icon">⌘</span><div><h3>What I do</h3><p>Frontend development & responsive UI</p></div></div>
+          <div class="fact-card"><span class="fact-icon">◎</span><div><h3>What I value</h3><p>Curiosity, clarity & continuous learning</p></div></div>
+          <div class="fact-card"><span class="fact-icon">↗</span><div><h3>Currently</h3><p>Learning and building with ShadowFox</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Tools I use to bring<br><span class="gradient-text">ideas to life.</span></h2><p class="section-subtitle">My current core skills are HTML, CSS and JavaScript, alongside the tools and practices I am learning.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-symbol html-symbol">5</span><h3>HTML5</h3><p>Semantic structure & accessible markup</p><span class="skill-tag">STRUCTURE</span></article>
+        <article class="skill-card reveal"><span class="skill-symbol css-symbol">✳</span><h3>CSS3</h3><p>Layouts, styling, transitions & responsive design</p><span class="skill-tag">STYLING</span></article>
+        <article class="skill-card reveal"><span class="skill-symbol js-symbol">JS</span><h3>JavaScript</h3><p>Interactive interfaces & DOM manipulation</p><span class="skill-tag">INTERACTIVITY</span></article>
+        <article class="skill-card reveal"><span class="skill-symbol git-symbol">⌘</span><h3>Git & GitHub</h3><p>Tools I'm learning for version control and project sharing</p><span class="skill-tag">WORKFLOW</span></article>
+        <article class="skill-card reveal"><span class="skill-symbol responsive-symbol">▣</span><h3>Responsive UI</h3><p>Layouts for mobile, tablet & desktop</p><span class="skill-tag">DESIGN</span></article>
+        <article class="skill-card reveal"><span class="skill-symbol tools-symbol">⚙</span><h3>VS Code</h3><p>Development environment and editor</p><span class="skill-tag">TOOLS</span></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading reveal"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span class="gradient-text">built.</span></h2></div><p class="section-subtitle">A few ideas brought to life through code. Replace these examples with your completed projects.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-feature reveal"><div class="project-visual visual-one"><div class="mini-browser"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-content"><div class="mini-sidebar"></div><div class="mini-main"><b></b><b></b><div class="mini-panels"><i></i><i></i><i></i></div></div></div></div><span class="visual-label">01 — WEB EXPERIENCE</span></div><div class="project-info"><div><span class="project-type">FRONTEND • RESPONSIVE DESIGN</span><h3>Personal Portfolio</h3><p>A responsive space to introduce myself, showcase skills and share projects.</p></div><a class="project-arrow" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="Add your portfolio repository link">↗</a></div><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-two"><div class="weather-widget"><span>MONDAY / 09:41</span><strong>☀</strong><b>28°</b><small>Clear skies</small><div class="weather-line"></div></div><span class="visual-label">02 — UI CONCEPT</span></div><div class="project-info"><div><span class="project-type">JAVASCRIPT • API PRACTICE</span><h3>Weather Dashboard</h3><p>A clean weather interface concept for presenting current conditions.</p></div><a class="project-arrow" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="Add your weather dashboard repository link">↗</a></div><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-three"><div class="task-widget"><div class="task-title">Today's focus <span>✦</span></div><div class="task-row"><i>✓</i><span>Plan the day</span></div><div class="task-row"><i></i><span>Build something</span></div><div class="task-row"><i></i><span>Keep learning</span></div><div class="task-progress"><b></b></div></div><span class="visual-label">03 — PRODUCTIVITY UI</span></div><div class="project-info"><div><span class="project-type">DOM • INTERACTIVE UI</span><h3>Task Manager</h3><p>A simple task-list concept focused on clarity and everyday productivity.</p></div><a class="project-arrow" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="Add your task manager repository link">↗</a></div><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      </div>
+      <p class="project-note">These are starter portfolio examples, not completed or hosted products. Replace the descriptions, previews and GitHub URLs with your own work before submitting.</p>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal"><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have an idea?<br>Let's make it <span class="gradient-text">happen.</span></h2><p>I'm always happy to connect, learn from others and explore opportunities. Send me a message.</p><a class="email-link" href="mailto:yaswanthguntupalli10@gmail.com">yaswanthguntupalli10@gmail.com <span>↗</span></a><div class="social-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-heading"><span>LET'S START A CONVERSATION</span><span class="form-star">✳</span></div>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="e.g. Alex Morgan" required minlength="2" autocomplete="name"><small class="error" id="name-error"></small>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="alex@example.com" required autocomplete="email"><small class="error" id="email-error"></small>
+          <label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about what you have in mind..." required minlength="10"></textarea><small class="error" id="message-error"></small>
+          <button class="button button-primary submit-button" type="submit">Validate & prepare email <span>↗</span></button>
+          <p class="form-note" id="form-status" aria-live="polite">Demo form: validates your details and opens your email app. Add a backend service to receive messages directly.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">Y.</span><span>yaswanth<span class="accent">.dev</span></span></a><p>Designed & built with care. © <span id="year"></span> Yaswanth Guntupalli</p><a class="back-top" href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
